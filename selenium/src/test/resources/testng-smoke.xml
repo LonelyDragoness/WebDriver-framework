@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke" verbose="1" >
+    <test name="GoogleCloudCalculatorEmailValidationTest"   >
+        <classes>
+            <class name="webdriver_final_task.test.GoogleCloudCalculatorEmailValidationTest" />
+        </classes>
+    </test>
+</suite>
+<!--        mvn test -Dsurefire.suiteXmlFiles=src\test\resources\testng-smoke.xml clean test-->
